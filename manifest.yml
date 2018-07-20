@@ -1,0 +1,7 @@
+  ---
+applications:
+- name: deloitte-employee-service
+  memory: 1024M
+  instances: 1
+  host: employee-Service-chronological-barra.cfapps.io
+  path: deloitte-employee-Service\target\employee-Service-0.0.1-SNAPSHOT.jar
